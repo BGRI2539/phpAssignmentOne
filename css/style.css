@@ -1,0 +1,146 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+  }
+  
+  /* Flex layout for the body */
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header styling with deep blue background and gold text */
+  header {
+    background-color: #00008B; 
+    color: #FFD700;            
+    padding: 1rem 0;
+  }
+  
+  header .logo h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #FFD700;
+    margin: 0;
+  }
+  
+  header nav .nav-link {
+    font-size: 1.1em;
+    color: #FFD700;
+    margin-left: 1rem;
+    text-decoration: none;
+  }
+  
+  header nav .nav-link:hover {
+    color: #fff;
+  }
+  
+  /* Main content area */
+  main {
+    flex: 1;
+    padding: 2rem 1rem;
+  }
+  
+  /* Form styling */
+  form label {
+    font-weight: bold;
+    color: #00008B; 
+  }
+  
+  form input, form textarea {
+    border: 1px solid #00008B; 
+    border-radius: 4px;
+    padding: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  form input:focus, form textarea:focus {
+    border-color: #FFD700; 
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5); 
+  }
+  
+  /* Button styling */
+  .btn {
+    background-color: #00008B; 
+    border: 1px solid #00008B;
+    color: #FFD700; 
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #FFD700; 
+    border-color: #FFD700;
+    color: #00008B;
+  }
+  
+  /* Footer styling with gold background and blue text */
+  footer {
+    background-color: #FFD700; 
+    color: #00008B;           
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+  }
+  
+  /* Confirmation Page Styling */
+  .confirmation-container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 139, 0.2);
+  }
+  
+  .confirmation-container h2 {
+    margin-bottom: 20px;
+    color: #00008B; 
+  }
+  
+  /* Success Alert */
+  .alert-success {
+    background-color: #FFD700; 
+    color: #00008B; 
+    border: 1px solid #00008B;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  
+  /* Failure Alert */
+  .alert-danger {
+    background-color: #B22222; 
+    color: #fff;
+    border: 1px solid #8B0000;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  
+  /* Styling for User Details Display */
+  .user-details {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 139, 0.2);
+    max-width: 400px;
+  }
+  
+  .user-details dt {
+    font-weight: bold;
+    color: #00008B; 
+  }
+  
+  .user-details dd {
+    margin-bottom: 10px;
+    color: #333;
+  }  
